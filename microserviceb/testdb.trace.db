@@ -1,0 +1,6 @@
+2024-07-11 12:55:37.769850-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" already exists; SQL statement:
+create table country( ID int not null AUTO_INCREMENT, name varchar(100) not null, PRIMARY KEY ( ID ) ) [42101-224]
+2024-07-11 12:57:27.954799-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRY" already exists; SQL statement:
+create table country( ID bigint not null AUTO_INCREMENT, name varchar(100) not null, PRIMARY KEY ( ID ) ) [42101-224]
